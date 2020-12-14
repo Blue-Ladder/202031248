@@ -16,7 +16,7 @@
 #define DELAY_MICROS  1500
 
 // Distance sensor
-#define EMA_ALPHA 0.35  // [3162] ema 필터의 alpha 값을 0.0으로 설정
+#define EMA_ALPHA 0.2  // [3162] ema 필터의 alpha 값을 0.0으로 설정
 #define EMA_ALPHA2 0.1
 // Servo range
 #define _DUTY_MIN 740    //서보의 가동 최소 각도
@@ -26,7 +26,7 @@
 // Servo speed control
 #define _SERVO_ANGLE 72   // 서보의 각도(72º) 
 //[3150] 레일플레이트가 사용자가 원하는 가동범위를 움직일때, 이를 움직이게 하는 서보모터의 가동범위
-#define _SERVO_SPEED 150       // 서보 속도를 200으로 설정
+#define _SERVO_SPEED 180      // 서보 속도를 200으로 설정
 
 // Event periods
 #define _INTERVAL_DIST 20   // Distance Sensing을 20(ms) 마다 실행한다.
@@ -35,7 +35,7 @@
 
 // PID parameters
 #define _KP 1.2 // 비례상수 설정
-#define _KD 180
+#define _KD 110
 #define _KI 0.1
 //////////////////////
 // global variables //
